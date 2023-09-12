@@ -1,0 +1,15 @@
+.meuNome{
+    font-style:oblique
+}
+
+.descricao{
+    font-style: italic;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+#lista-habilidade{
+    font-size: medium;
+}
