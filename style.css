@@ -1,9 +1,16 @@
+body{
+    padding: 3%;
+}
+
 .meuNome{
     font-style:oblique
 }
 
 .descricao{
     font-style: italic;
+    position: absolute;
+    top: 36%;
+    right: 8%;
 }
 
 body{
@@ -12,4 +19,24 @@ body{
 
 #lista-habilidade{
     font-size: medium;
+}
+
+#foto-de-perfil-Samuel-Sfeir{
+    float: left;
+    height: 330px;
+    padding: 10px;
+    background-color:blanchedalmond;
+}
+
+.image-container{
+    height: 350px;
+    position: relative;
+}
+
+.meunome{
+    text-align: center;
+}
+
+ul li:nth-child(odd){
+    background-color: salmon;
 }
