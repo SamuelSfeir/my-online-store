@@ -1,42 +1,464 @@
-body{
-    padding: 3%;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;    
 }
 
-.meuNome{
-    font-style:oblique
+html {
+    scroll-behavior: smooth;
+  }
+
+header{
+    display:flex;
+    flex-direction: column;
 }
 
-.descricao{
-    font-style: italic;
-    position: absolute;
-    top: 36%;
-    right: 8%;
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    height: 85px;
 }
 
-body{
-    background-color: aliceblue;
+.left-side-menu{
+    display: flex;
+    gap: 50px;
+    width: 100%;
 }
 
-#lista-habilidade{
-    font-size: medium;
+.logo {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+
+  }
+  
+.logo img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
+
+nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 40px;
 }
 
-#foto-de-perfil-Samuel-Sfeir{
-    float: left;
-    height: 330px;
-    padding: 10px;
-    background-color:blanchedalmond;
+nav ul li a{
+    text-decoration: none;
+    color: hsl(219, 9%, 45%);
 }
 
-.image-container{
-    height: 350px;
+.search-button {
+    font-size: 15px;
+    color: #243380;
+    text-decoration: none;
+    padding: 9px 25x;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    position: static;
+    width: 85px;
+    height: 32px;
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color:#4b67fa;
+    color: #fff;
+    margin-left: 5px;
+    border-radius: 15px;
+  }
+
+
+.search-button:hover {
+    background-color: #6981ff
+  }
+
+.searchbar input[type="text"] {
+    padding: 7px;
+    width: 500px;
+  }
+
+.searchbar{
+    display: flex;
+    align-items: center;
     position: relative;
+    left: 10px;
+    margin-top: 1px;
+  }
+  
+.inputsearchbutton{
+    background-color: #fff;
+    border-radius: 20px;
+    border-width: 1px;
+  }
+
+.line{
+    height: 1px;
+    background-color: #ddd;
+    width: 100%;
+    align-self: center;
 }
 
-.meunome{
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh-85px);
+    gap: 100px;
+    margin-top: 20px;
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.items{
+    align-self: flex-end;
+}
+
+.select-image{
+    max-width: 400px;
+}
+
+.select-image img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.thumbnails{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 400px;
+    gap: 10px;
+}
+
+.thumbnail img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.right-side{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.right-side h6{
+    color: #29304d;
+}
+
+.right-side p{
+    color: #29304d;
+    font-size: 14px;
+}
+
+.prices{
+    display: flex;
+    flex-direction: column;
+}
+
+.price{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.off{
+    font-size: 12px;
+    color: #9597a3;
+    text-decoration: line-through;
+    text-decoration-color: #c3c4c7;
+}
+
+.options{
+    display: flex;
+    gap: 20px;
+}
+
+.amount {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: hsl(219, 9%, 98%);
+    padding: 10px 20px;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.amount span{
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.minus, .plus{
+    cursor:pointer
+}
+
+.button{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: hsl(26, 100%, 55%);
+    padding: 10px 35px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: 5px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.button img{
+    width: 14px;
+}
+
+.line1{
+    height: 1px;
+    background-color: #b8b6b6;
+    width: 100%;
+}
+
+.wrapper{
+    text-align: center; /* in the video, he does it with * (make sure you don't forget about it)*/
+    color: black;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #fafafa;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testimonial{
+    padding: 30px 100px;
+}
+
+article h1{
+    font-size: 35px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+article h1:after{
+    content: "";
+    height: 5px;
+    width: 225px;
+    background-color: black;
+    display: block;
+    margin: auto;
+}
+
+article img{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-top: 60px;
+}
+
+blockquote{
+    font-family: sans-serif;
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+article h5{
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 30px;
+    letter-spacing: 1.5px;
+}
+
+article p{
+    font-size: 17px;
+}
+
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+}
+
+.contact .contentContact{
+    max-width: 800px;
     text-align: center;
+    margin-bottom: 1px;
 }
 
-ul li:nth-child(odd){
-    background-color: salmon;
+.contact .contentContact h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: black;
+}
+
+.contact .contentContact p{
+    font-weight: 300;
+    color: black;
+}
+
+.containerContact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.containerContact .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerContact .contactInfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.containerContact .contactInfo .box{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.containerContact .contactInfo .box.text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.containerContact .contactInfo .box .text h3{
+    font-weight: 500;
+    color: #00bcd4;
+}
+
+.contactForm{
+    width: 40%;
+    padding: 40px;
+    background: #ebe8e8;
+    border-radius: 10px;
+}
+
+.contactForm h2{
+    font-size: 30px;
+    color: black;
+    font-weight: 500;
+}
+
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 15px
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox input{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.contactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span{
+    color: #e91e63;
+    font-size: 15px;
+    transform: translateY(-31px);
+}
+
+.contactForm .inputBox input[type='Submit']{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+@media (max-width: 991px){
+    .contact{
+        padding: 50px;
+    }
+    .containerContact{
+        flex-direction: column;
+    }
+    .containerContact .contactInfo{
+        margin-bottom: 40px;
+    }
+    .containerContact .contactInfo,
+    .contactForm{
+        width: 100%;
+    }
+}
+
+.TopButton{
+    text-decoration: none;
+    color: white;
+    background-color: hsl(26, 100%, 55%);
+    padding: 10px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    box-shadow: 3px 3px 10px #333;
+}
+
+#whatsapp{
+    width: 10%;
+    margin-left: 110%;
+    position: relative;
+    top: 22px;
+}
+
+#message {
+    font-size: 25px;
 }
