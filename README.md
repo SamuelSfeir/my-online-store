@@ -8,7 +8,7 @@ Este projeto consiste em um site estático criado com HTML e estilizado com CSS.
 
 ### Visualização do Site
 
-Você pode visualizar o site online [aqui](https://samuelsfeir.github.io/).
+Você pode visualizar o site online [aqui](https://loja-virtual-propria.vercel.app/).
 
 ### Recursos
 
