@@ -1,4 +1,4 @@
-# Site de minha loja
+# Site de minha loja (e-commerce)
 
 Bem-vindo ao repositório do meu site da loja! Este projeto foi criado para representar minha loja online e compartilhar informações sobre meus produtos e negócios. 
 
