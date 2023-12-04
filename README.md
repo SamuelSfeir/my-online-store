@@ -26,10 +26,6 @@ Você pode visualizar o site online [aqui](https://loja-virtual-propria.vercel.a
 
 - CSS: O CSS foi usado para estilizar o site, tornando-o atraente e coeso.
 
-### Pré-requisitos
-
-Não há pré-requisitos para visualizar o site, pois ele é estático e não requer um ambiente de desenvolvimento específico.
-
 
 ### Contribuições
 
