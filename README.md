@@ -1,6 +1,6 @@
 # Site do meu e-commerce
 
-Bem-vindo ao repositório do meu site da loja! Este projeto foi criado para representar minha loja online e compartilhar informações sobre meus produtos e negócios. 
+Bem-vindo ao repositório do meu site da loja! Este projeto foi criado para representar meu e-commerce
 
 ### Sobre o Projeto
 
