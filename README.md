@@ -1,4 +1,54 @@
-# Site do meu e-commerce
+ Please, select your language:
+
+
+<details>
+  <summary>English :us: </summary>
+  
+  # My e-commerce website
+
+Welcome to my store website repository! This project was created to represent my e-commerce
+
+### About the project
+
+This project consists of a static website created with HTML and styled with CSS. The main purpose of the website is to provide visitors with information about my store, products, services and ways to get in touch.
+
+### Site View
+
+You can view the website online [here](https://loja-virtual-propria.vercel.app/).
+
+### Resources
+
+- **Home Page:** The site's home page features a brief overview of my store, including featured images and a succinct description.
+
+- **Products:** A section dedicated to the products I offer in my store. Each product is presented with an image, description and price.
+
+- **About Us:** A page that provides information about my store, its history and mission.
+
+- **Contact:** Visitors can contact me through a form on the contact page, where they can send messages and questions.
+
+### Technologies Used
+
+- HTML: I used HTML to create the site structure and organize the content.
+
+- CSS: CSS was used to style the website, making it attractive and cohesive.
+
+
+### Contributions
+
+Contributions are welcome! If you want to help improve the site, add features, or fix issues, feel free to create a pull request.
+
+### Contact
+
+If you have any questions, feedback or would like to contact me for business purposes, you can do so via [E-mail](mailto:samuel1808@hotmail.com) or [LinkedIn](https://www.linkedin.com/in/samuel-sfeir-434152278/).
+Thank you for visiting my store website. I hope you find the information you are looking for and enjoy your browsing experience!
+  
+</details>
+
+<details>
+  <summary>Portuguese :brazil: </summary>
+
+  
+  # Site do meu e-commerce
 
 Bem-vindo ao repositório do meu site da loja! Este projeto foi criado para representar meu e-commerce
 
@@ -36,3 +86,6 @@ Contribuições são bem-vindas! Se você deseja ajudar a melhorar o site, adici
 Se você tiver alguma pergunta, feedback ou desejar entrar em contato comigo para fins comerciais, pode fazê-lo através do [meu e-mail](mailto:samuel1808@hotmail.com) ou [LinkedIn](https://www.linkedin.com/in/samuel-sfeir-434152278/).
 
 Obrigado por visitar meu site da loja. Espero que você encontre as informações que procura e aproveite sua experiência de navegação!
+
+</details>
+
